@@ -30,6 +30,7 @@ class Game
 
   def next_round
     @round += 1
+    puts " ------- Round #{@round} ---------"
   end
 
   #player switch by looking at the @active_player in @total_players
